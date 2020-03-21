@@ -12,9 +12,11 @@ import { HomeComponent } from './home';
 import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
 import { AlertComponent } from './_components';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
     imports: [
+        NgbModule,
         BrowserModule,
         appRoutingModule,
         ReactiveFormsModule,
