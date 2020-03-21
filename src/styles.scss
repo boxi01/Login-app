@@ -1,0 +1,35 @@
+@import './assets/variables.scss';
+
+body {
+    background: $main-color;
+    position: absolute;
+}
+
+.box-container {
+    border-radius: 15px;
+    -moz-box-shadow: 21px 19px 15px -16px rgba(19,40,40,1);
+     box-shadow: 21px 19px 15px -16px rgba(19,40,40,1);
+     width: 60em;
+     height: 30em;
+     margin-top: 5em;
+     position: relative;
+     top: 50%;
+     left: 10%
+}
+
+.green-background {
+    height: 30%;
+    color: red;
+}
+
+.box-container {
+    &.login-section {
+        background-image: url(./assets/login.jpg);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+}
+
+
+
